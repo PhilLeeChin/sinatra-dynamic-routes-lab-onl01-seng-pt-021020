@@ -33,9 +33,9 @@ class App < Sinatra::Base
       solution = (num1 + num2).to_s
     elsif params[:operation] == 'subtract'
       solution = (num1 - num2).to_s
-    elsif params[:operation] == multiply
+    elsif params[:operation] == 'multiply'
       solution = (num1 * num2).to_s
-    elsif params[:operation] == divide
+    elsif params[:operation] == 'divide'
       solution = (num1 / num2).to_s
     end
   end
