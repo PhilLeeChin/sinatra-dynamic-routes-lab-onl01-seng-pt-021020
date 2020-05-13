@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   get '/square/:number' do
-    solve = params[:number] * 2
+    solve = params[:number] ** 2
     "#{solve}"
   end
 
